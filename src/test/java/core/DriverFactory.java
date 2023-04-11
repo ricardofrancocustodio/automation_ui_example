@@ -1,18 +1,14 @@
 package core;
 
-
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import java.time.Duration;
 
-import java.util.concurrent.TimeUnit;
 
 public class DriverFactory {
 
     public static WebDriver driver;
-    public static String baseURL = "";
+    public static String baseURL = "https://www.google.com";
 
     public DriverFactory() {
         createDriver();
@@ -23,7 +19,7 @@ public class DriverFactory {
         driver = new ChromeDriver();
         driver.get(baseURL);
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
     }
 
     public static WebDriver getDriver() {
