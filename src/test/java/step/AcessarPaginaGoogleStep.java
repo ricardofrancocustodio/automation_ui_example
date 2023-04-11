@@ -10,7 +10,7 @@ public class AcessarPaginaGoogleStep {
 
     private AcessarPaginaGooglePage acessarPaginaGooglePage;
 
-
+    
     public AcessarPaginaGoogleStep(){
         DriverFactory.getDriver();
     }
