@@ -8,7 +8,7 @@ import java.time.Duration;
 public class DriverFactory {
 
     public static WebDriver driver;
-    public static String baseURL = "https://www.google.com";
+    public static String baseURL = "C:/automation_petstore/html/index.html";
 
     public DriverFactory() {
         createDriver();
@@ -27,6 +27,11 @@ public class DriverFactory {
             createDriver();
         }
         return driver;
+    }
+
+    public static void closeDriver(){
+        driver.close();
+        driver.quit();
     }
 
 }

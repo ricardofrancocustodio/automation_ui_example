@@ -203,7 +203,7 @@ public class BasePage {
         return getTextCustom(by).contains(text);
     }
 
-    public String getURL(By by){
+    public String getURL(){
         String elem = this.driver.getCurrentUrl();
         return elem;
     }
