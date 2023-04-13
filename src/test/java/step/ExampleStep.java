@@ -10,7 +10,6 @@ import page.ExamplePage;
 
 public class ExampleStep {
 
-
     ExamplePage examplePage =  new ExamplePage(DriverFactory.getDriver());
 
     @BeforeEach
