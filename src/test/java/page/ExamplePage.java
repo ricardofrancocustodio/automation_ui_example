@@ -39,5 +39,41 @@ public class ExamplePage extends BasePage {
 
     }
 
+   public void i_choose_a_country() {
+        By countrySelect = By.id("country");
+        click(countrySelect);
+
+        By chooseCountry =  By.id("usa");
+        click(chooseCountry);
+
+    }
+
+    public void i_choose_a_state() {
+        By stateSelect = By.id("state");
+        click(stateSelect);
+
+        By chooseState =  By.id("california");
+        click(chooseState);
+    }
+
+
+    public void i_select_the_item_shipping_address_same_as_billing_address() {
+        By sameAddress = By.id("same-address");
+        click(sameAddress);
+
+    }
+
+
+    public void i_select_the_item_save_this_information_for_next_time() {
+        By saveInfo = By.id("save-info");
+        click(saveInfo);
+    }
+
+
+    public void click_on_continue_to_checkout_button_to_submit_the_form() {
+        By clickCheckoutButton = By.id("checkout");
+        click(clickCheckoutButton);
+    }
+
 
 }

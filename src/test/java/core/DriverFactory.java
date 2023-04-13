@@ -31,7 +31,7 @@ public class DriverFactory {
 
     public static void closeDriver(){
         driver.close();
-        driver.quit();
+      //  driver.quit();
     }
 
 }
