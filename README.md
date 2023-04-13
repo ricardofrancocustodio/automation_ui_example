@@ -6,6 +6,7 @@
    * Find and List Elements
    * Implicit wait example
    * Explicit wait example
+   * Reports generated >> check target folder after running tests
    
   
   
