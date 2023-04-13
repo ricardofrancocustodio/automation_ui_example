@@ -2,10 +2,11 @@
 
  - A simple test automation solution for UI:
    * Access URL
-   * Find Element 
+   * Find Element example
    * Find and List Elements
-   * Implicit wait
-   * Explicit wait
+   * Implicit wait example
+   * Explicit wait example
+   
   
   
   
